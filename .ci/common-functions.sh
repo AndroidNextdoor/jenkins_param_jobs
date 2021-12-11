@@ -6,7 +6,7 @@ docker-login() {
     else
       # Using username and password variables
       echo "Using username/password"
-      docker login --username ${DOCKERHUB_USERNAME} --password ${DOCKERHUB_PASSWORD}
+      docker login --username ${DOCKER_USERNAME} --password ${DOCKER_PASSWORD}
     fi
     echo "Docker logged in successfully"
 }

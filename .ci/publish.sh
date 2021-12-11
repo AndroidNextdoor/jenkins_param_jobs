@@ -10,10 +10,10 @@ set -o pipefail
 . jenkins-support
 source ./.ci/common-functions.sh > /dev/null 2>&1
 
-: "${DOCKERHUB_ORGANISATION:=jenkins}"
-: "${DOCKERHUB_REPO:=jenkins}"
+: "${DOCKER_ORGANISATION:=jenkins}"
+: "${DOCKER_REPO:=jenkins}"
 
-export JENKINS_REPO="${DOCKERHUB_ORGANISATION}/${DOCKERHUB_REPO}"
+export JENKINS_REPO="${DOCKER_ORGANISATION}/${DOCKER_REPO}"
 
 cat <<EOF
 Docker repository in Use:

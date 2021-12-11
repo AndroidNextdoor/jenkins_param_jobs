@@ -8,11 +8,20 @@ NOTE: This Jenkins instance is insecure and is not production ready.
 
 <img src="https://jenkins.io/sites/default/files/jenkins_logo.png"/>
 
+<img src="download.png"/>
 
 # Usage
 Begin by unzipping the jenkins_home zip folder.
 
-Then log into docker.io & run
+#### Log into docker
+For Easy login to dockerhub.io you can set environment variables DOCKER_USERNAME and DOCKER_PASSWORD
+
+run script
+```
+./.ci/common-functions.sh
+```
+
+run
 ```
 docker pull anixdorf/jenkins
 ```
