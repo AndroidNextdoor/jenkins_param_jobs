@@ -9,10 +9,10 @@ This Jenkins server is for demonstration purposes only. Many parameter plugins w
 
 !! This Jenkins instance is insecure and is not production ready - Use at your own risk. I've installed the jenkins plugin "skip-certificate-check" to the docker image. Remove that plugin and install certs correctly if necessary  !!
 
-##Visit Jenkins.io
-###Jenkins is a fantastic tool! It is used by many organizations because it's easy to use.
+## Visit Jenkins.io ##
+### Jenkins is a fantastic tool! It is used by many organizations because it's easy to use. ##
 
-##Pull this repo 
+## Pull this repo  ##
 
 For easy authentication to dockerhub.io, you can set environment variables DOCKER_USERNAME and DOCKER_PASSWORD
 
@@ -31,7 +31,7 @@ For full documentation of the original docker image, please visit:
 https://github.com/jenkinsci/jenkinsK
 
 ![Katalon](download.png) 
-##Visit Katalon.com
+## Visit Katalon.com ##
 
 I love their approach to testing. Works as an excellent Blackbox approach to testing.
 
