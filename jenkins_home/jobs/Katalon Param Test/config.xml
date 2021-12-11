@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Runs a Katalon CLI command that can be executed with user parameters. Allows ease of swapping out urls, browsers, sizes, tokens, etc.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>urlLogin</name>
+          <defaultValue>https://wonderaleworks.com</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.BatchFile>
+      <command>katalon -noSplash  -runMode=console -projectPath=&quot;C:\Users\nixdo\Katalon Studio\dev_reno.prj\shopping-cart-tests.prj&quot; -retry=0 -testSuitePath=&quot;Test Suites/Post a New Meetup&quot; -executionProfile=&quot;default&quot; -browserType=&quot;Chrome&quot; -g_urlLogin=&quot;${urlLogin}&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
