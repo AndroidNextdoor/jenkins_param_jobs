@@ -11,7 +11,7 @@ NOTE: This Jenkins instance is insecure and is not production ready.
 <img src="download.png"/>
 
 # Usage
-Begin by unzipping the jenkins_home zip folder.
+Pull this repo
 
 #### Log into docker
 For Easy login to dockerhub.io you can set environment variables DOCKER_USERNAME and DOCKER_PASSWORD
@@ -36,3 +36,5 @@ https://github.com/jenkinsci/jenkins
 
 To download an old version of Katalon Studio that does not check for licensing, please visit: 
 ```https://github.com/katalon-studio/katalon-studio/releases/tag/v6.3.3```
+
+Download the Application and start Running Tests
