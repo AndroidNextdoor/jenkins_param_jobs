@@ -1,7 +1,7 @@
 <img src="https://jenkins.io/sites/default/files/jenkins_logo.png"/>
 
 # Jenkins Parameterized Katalon Job
-## Use the power of Katalon Studio's easy record, startup and go approach with the power of Jenkins Automation and get instant results in software testing.
+## Use the power of Katalon Studio's easy record, startup and go approach with the power of Jenkins automation and get instant results in software testing.
 
 This project was forked using the latest docker image provided by The Jenkins Continuous Integration and Delivery server [available on Docker Hub](https://hub.docker.com/r/jenkins/jenkins).
 
